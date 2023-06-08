@@ -23,7 +23,7 @@ public class task {
         if (Description.length() < 50) {
            
             
-            JOptionPane.showMessageDialog(null, "This task has been successfullt captured");
+            JOptionPane.showMessageDialog(null, "This task has been captured");
             return true;
             
         }else{
@@ -47,7 +47,7 @@ String DISPLAY;
 public String printTaskDetails(String Tstatus, String DeveloperDetails, int Tnumber, String Tname, String Description, String TID, int Duration ){
   
     
-    DISPLAY = "The status:" +Tstatus+ "The developer details: " +DeveloperDetails+ "The task number is: "+ Tnumber+ "The description is: " +Description+ "\n\t The ID is: " +TID+ "The duration is:" +Duration ;
+    DISPLAY = "The status:" +Tstatus+ "The developer details: " +DeveloperDetails+ "The task number is: "+ Tnumber+ "The description is: " +Description+ "The ID is: " +TID+ "The duration is:" +Duration ;
 
 return DISPLAY;
 }
