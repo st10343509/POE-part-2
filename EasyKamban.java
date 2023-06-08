@@ -88,7 +88,7 @@ public class EasyKamban {
               TaskID[i] = task.createTaskID(i + 1, TaskNames[i], Developer[i]);
               TaskDuration[i] = Integer.parseInt(JOptionPane.showInputDialog("Please enter an amount of hours"));
               
-            StatusChoice = Integer.parseInt(JOptionPane.showInputDialog(null, "Please enter the status of the task out of the folloiwng : \n\t 1. To Do \n\t 2. Done \n\t 3. Doing", "Task Status", JOptionPane.QUESTION_MESSAGE));
+            StatusChoice = Integer.parseInt(JOptionPane.showInputDialog(null, "Please enter the status of the task out of the folloiwng : 1=To do 2=Done 3=Doing", "Task Status", JOptionPane.QUESTION_MESSAGE));
               
             switch (StatusChoice){
                 
